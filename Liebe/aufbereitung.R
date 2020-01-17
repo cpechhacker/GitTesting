@@ -4,11 +4,12 @@ library(tidyverse)
 
 source("FunctionsLibrary/math_functions.R")
 
-add_zahlen(5, 4)
+
+add_zahlen(5, 8) ## test comment
 
 
 
-random_numbers <- tibble( x= rnorm(1000), y = runif(1000))
+random_numbers <- tibble( x = rnorm(1000), y = runif(1000))
 
 
 ## Save 
